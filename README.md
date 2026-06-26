@@ -6,6 +6,22 @@
 
 **Claimed 2026-06-26.** Operational scope — not just a placeholder. Program structure captured below.
 
+## geography
+
+**Long-term ambition: worldwide.** Wherever disability + capable workforce + viable funding channels intersect, the program scales there. The platform — assistive AI, humanoid robot scaffolding, adaptive UI, certification system, work-tracking — is country-agnostic. The funding + legal + cultural shell is country-specific.
+
+**Order of expansion (current):**
+
+| # | Country | Status | First city | Why this order |
+|---|---|---|---|---|
+| 1 | **United States** | Operational design ready (Texas first) | Austin / Dallas | Federal funding stack is robust; SBIR/VR/Section 503 are real revenue paths |
+| 2 | **Philippines** | Operational design ready (Manila/Cebu/Davao) | Manila | Large English-speaking PWD population, established BPO infrastructure, Section 32(A)(5) tax incentive, time-zone arbitrage for US clients via the reseller channel |
+| 3 | **(TBD)** | future | TBD | Likely candidates: India, Mexico, Brazil, Indonesia — any country with strong English/Spanish workforce + active disability-employment policy + low operating cost |
+
+**Country-track expansion pattern:** each new country gets its own funding pathways doc in [whitelabel-accessibility/funding/](https://github.com/whitelabel-dev/whitelabel-accessibility) (US: `government-pathways.md`, PH: `philippines-pathways.md`, future: `<country>-pathways.md`). The four-phase program structure below stays the same across countries; the funding + legal + cultural shell adapts.
+
+**Why eventually-worldwide matters now**, not later: the platform decisions made today (language-localization plumbing, legal-entity flexibility, multi-currency wage handling, international employment compliance) should assume worldwide from the start. Retrofitting an internationalization layer onto a US-only platform is 5-10× the cost of building it in from day one.
+
 ## the four phases
 
 Each intern moves through these in sequence. Each phase has clear entry/exit criteria so the path is legible to interns, funders, and hiring partners.
